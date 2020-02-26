@@ -1,0 +1,134 @@
+#enscart_wrapper {
+    top: 100px;
+}
+
+.powered {
+    display: none;
+}
+
+.easynetshop-modalcontainer .easynetshop-modal {
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+.easynetshop-bodyhide {
+    overflow: auto;
+}
+
+.easynetshop-modal-header {
+    background-color: rgb(0, 146, 138);
+}
+
+.easynetshop-modal-header .easynetshop-close {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+
+.easynetshop-modal-title {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.easynetshop-modal-body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+}
+
+.easynetshop-goodtitle {
+    margin-bottom: 0;
+}
+
+.easynetshop-3 {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.easynetshop-delgood {
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.easynetshop-goodtitle-name {
+    color: rgb(255, 94, 0);
+    font-weight: bold;
+}
+
+.easynetshop-row {
+    display: flex;
+    align-items: center;
+}
+
+.easynetshop-doorder,
+.easynetshop-gotocart,
+.easynetshop-continue {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 94, 0);
+    border: none;
+    border-radius: 5px;
+}
+
+.easynetshop-continue,
+.easynetshop-gotocart {
+    background-color: rgb(0, 146, 138);
+}
+
+.easynetshop-doorder:hover,
+.easynetshop-gotocart:hover,
+.easynetshop-continue:hover {
+    background-color: rgb(210, 210, 210);
+    color: rgba(68, 68, 68, 1);
+    transition: all .5s;
+}
+
+.fields_number {
+    font-size: 1rem;
+}
+
+.easynetshop-cross-caption {
+    font-family: 'Oswald', sans-serif;
+}
+
+.easynetshop-cross-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.easynetshop-modal .easynetshop-recomended .easynetshop-cross-single2.easynetshop-3 {
+    width: 110px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    white-space: inherit;
+}
+
+.easynetshop-text-container {
+    width: 100%;
+}
+
+.easynetshop-recomended .easynetshop-text-container .btn-ens-cross-style {
+    border: none;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(220, 53, 69);
+    white-space: nowrap;
+}
+
+.easynetshop-row:before,
+.easynetshop-row:after {
+    display: none;
+}
+
+.easynetshop-recomended .easynetshop-text-container .btn-ens-cross-style:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(220, 53, 69, 0.8);
+}
+
+.easynetshop-recomended,
+.easynetshop-div-group {
+    font-family: 'Oswald', sans-serif;
+}
