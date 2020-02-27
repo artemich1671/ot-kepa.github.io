@@ -16,7 +16,11 @@ section h2 {
     font-size: 3rem;
     font-weight: 700
 }
-
+.shop-price+span {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+}
 #enscart_wrapper {
     top: 100px
 }
@@ -632,12 +636,11 @@ button {
     border-bottom-right-radius: 10px
 }
 
-.shop-price {
+.card .shop-price {
     font-size: 1.7rem;
     text-transform: uppercase;
     font-weight: 800;
     color: #fff;
-    margin: 0 15px
 }
 
 .shop-text {
@@ -650,14 +653,6 @@ button {
     border-radius: 50px;
     box-shadow: 0 0 10px #464646;
     cursor: pointer
-}
-
-.shop-price {
-    font-size: 1.7rem;
-    text-transform: uppercase;
-    font-weight: 800;
-    color: #fff;
-    margin: 0 15px
 }
 
 .quantity {
@@ -689,9 +684,15 @@ button {
 }
 
 .drinks h3 {
-    color: #444
+    color: #444;
 }
 
+.drinks .shop-price {
+    color: #444;
+}
+.drinks .shop-price+span {
+    color: #444;
+}
 .drinks .info-box,
 .drinks .shop {
     background-color: #fff
